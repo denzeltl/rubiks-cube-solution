@@ -2,6 +2,7 @@ body {
     background: #f7fafc;
 }
 
+/* Jumbotron */
 .jumbotron {
     background: #f7fafc;
     padding: 45px 32px;
@@ -13,3 +14,5 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Main Section */
