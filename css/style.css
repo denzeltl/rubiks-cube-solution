@@ -1,0 +1,15 @@
+body {
+    background: #f7fafc;
+}
+
+.jumbotron {
+    background: #f7fafc;
+    padding: 45px 32px;
+    margin: 0;
+}
+
+#rubiks-cube-gif-text {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
