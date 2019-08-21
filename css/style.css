@@ -16,3 +16,40 @@ body {
 }
 
 /* Main Section */
+main .header {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#sidebar-nav li a:hover {
+    animation-name: sidebar-hover;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    #jumbotron-content {
+        margin-bottom: 45px;
+    }
+
+    #main-content {
+        margin-top: 20px;
+    }
+}
+
+/* Keyframes */
+@keyframes sidebar-hover {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 2px;
+    }
+}
+
+#main-content {
+    margin-bottom: 30rem;
+}

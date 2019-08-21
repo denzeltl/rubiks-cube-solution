@@ -14,7 +14,7 @@
         <!-- <link rel="stylesheet" href="css/debug.css" /> -->
         <title>Rubik's Cube Solution</title>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#sidebar-nav">
         <div class="container">
             <!-- Header -->
             <div class="jumbotron text-center">
@@ -24,7 +24,7 @@
             </div>
 
             <!-- Jumbotron -->
-            <div class="row align-items-center">
+            <div id="jumbotron-content" class="row align-items-center">
                 <!-- What is CFOP -->
                 <div class="col-md-6 text-center text-md-left">
                     <h2>
@@ -49,6 +49,89 @@
             </div>
 
             <!-- Main Section -->
+            <main class="row">
+                <!-- Sidebar Nav -->
+                <div class="col-md-4">
+                    <ul id="sidebar-nav" class="nav nav-pills flex-column sticky-top">
+                        <!-- Nav Intro -->
+                        <p class="header">Introduction</p>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#why-cfop">Why Do CFOP Method?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cfop-steps">Steps of Advanced CFOP</a>
+                        </li>
+                        <!-- Nav Solution -->
+                        <p class="header">Solution</p>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#cross">Cross</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">First Two Layers (F2L)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orientation of Last Layer (OLL) 1st Look</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orientation of Last Layer (OLL) 2nd Look</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Permutation of Last Layer (PLL) 1st Look</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Permutation of Last Layer (PLL) 2nd Look</a>
+                        </li>
+                        <!-- Nav Conclusion -->
+                        <p class="header">Conclusion</p>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Summary</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Main Content -->
+                <main id="main-content" class="col-md-8">
+                    <!-- Introduction -->
+                    <h3 id="why-cfop">Introduction</h3>
+                    <div>
+                        <header class="lead font-weight-normal">
+                            Why Do CFOP Method?
+                        </header>
+                        <p>
+                            The CFOP method average number of moves for a complete solution is ~56 moves. While using the beginner's method, the
+                            average number of moves is roughly around 110 moves. (100% more moves!) All top ranking speedcubers today use the CFOP
+                            method (sometimes with additional variations to it). Mastering the speedsolving method requires learning some new
+                            algorithms and practice, and takes a bit longer than the beginner's method. However since fully mastered it will enable
+                            you to speedsolve the Rubik's cube much faster, and basically from there only practice is what stands between you and sub
+                            30/20/10 solving time, and the world record!
+                        </p>
+                    </div>
+                    <div id="cfop-steps">
+                        <header class="lead font-weight-normal">
+                            Steps of Advanced CFOP
+                        </header>
+                        <ol>
+                            <li>
+                                First of all we have to solve the white edge pieces in the bottom. This seems to be the easiest but it's really hard
+                                if you want to do it right. You should be able to determine all the rotations needed to complete the white cross after
+                                inspecting the cube, and you'll succeed only if you foresee 7 steps.
+                            </li>
+                            <li>
+                                When the cross is done we solve the first two layers (F2L) in one step using a technique to pair the white corner and
+                                second layer edge pieces. We are talking about four corner blocks which usually require 4x7 steps.
+                            </li>
+                            <li>
+                                Orienting the last layer (OLL) of the Rubik's Cube is the step in which we solve the yellow face without matching the
+                                side colours. We are going to position them in the next step. Learn all the 57 algorithms to complete this step
+                            </li>
+                            <li>Permutate the last layer (PLL) to finish the solution of your cube. There are 21 algorithms to memorize.</li>
+                        </ol>
+                    </div>
+
+                    <!-- Solution -->
+                    <h3>Solution</h3>
+                </main>
+            </main>
         </div>
 
         <script
