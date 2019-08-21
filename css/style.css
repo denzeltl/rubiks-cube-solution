@@ -29,6 +29,10 @@ main .header {
     animation-fill-mode: forwards;
 }
 
+#summary-content {
+    margin-bottom: 50px;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     #jumbotron-content {
@@ -48,8 +52,4 @@ main .header {
     100% {
         margin-left: 2px;
     }
-}
-
-#main-content {
-    margin-bottom: 30rem;
 }
