@@ -23,14 +23,30 @@ main .header {
     margin-bottom: 0;
 }
 
+#sidebar-nav {
+    overflow: auto;
+    height: 100vh;
+    width: 310px;
+    direction: rtl;
+}
+
+#sidebar-nav li {
+    direction: ltr;
+}
+
 #sidebar-nav li a:hover {
     animation-name: sidebar-hover;
     animation-duration: 100ms;
     animation-fill-mode: forwards;
 }
 
+#cross,
+#summary {
+    margin-top: 25px;
+}
+
 #summary-content {
-    margin-bottom: 50px;
+    margin-bottom: 50vh;
 }
 
 /* Media Queries */

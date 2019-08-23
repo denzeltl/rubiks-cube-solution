@@ -1,12 +1,10 @@
 # Rubik's Cube Solution
 
-TODO:
-A personal project made while working at _Gadens_ as Processing Associate to assist with my day-to-day tasks. This template has helped me eliminate common errors by programming the code do most of the logic work.
+My take on FreeCodeCamp's [Responsive Web Design Projects - Build a Technical Documentation Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
 
 View [here](https://denzeltl.github.io/rubiks-cube-solution/)
 
-TODO:
-**Completed on:** _08/19/2019_
+**Completed on:** _08/24/2019_
 
 ---
 
@@ -17,7 +15,7 @@ TODO:
 
 ## References:
 
--   _https://www.speedsolving.com/wiki/index.php/CFOP_method/_
+-   _https://www.speedsolving.com/wiki/index.php/CFOP_method_
 -   _https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/_
 -   _http://www.rubiksplace.com/speedcubing/guide/_
 -   _https://media.giphy.com/media/iH1IuUZHLOgPC/giphy.gif_

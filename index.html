@@ -11,6 +11,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
         <!-- <link rel="stylesheet" href="css/debug.css" /> -->
         <title>Rubik's Cube Solution</title>
     </head>
@@ -51,7 +52,7 @@
             <!-- Main Section -->
             <main class="row">
                 <!-- Sidebar Nav -->
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-column">
                     <ul id="sidebar-nav" class="nav nav-pills flex-column sticky-top">
                         <!-- Nav Intro -->
                         <p class="header">Introduction</p>
@@ -68,12 +69,28 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#f2l">First Two Layers (F2L)</a>
+                            <li class="nav flex-column">
+                                <a class="nav-link ml-3" href="#f2l-1">1st Case: Easy cases</a>
+                                <a class="nav-link ml-3" href="#f2l-2">2nd Case: Corner in bottom, edge in top layer</a>
+                                <a class="nav-link ml-3" href="#f2l-3">3rd Case: Corner in top, edge in middle</a>
+                                <a class="nav-link ml-3" href="#f2l-4">4th Case: Corner pointing outwards, edge in top layer</a>
+                                <a class="nav-link ml-3" href="#f2l-5">5th Case: Corner pointing upwards, edge in top layer</a>
+                                <a class="nav-link ml-3" href="#f2l-6">6th Case: Corner in bottom, edge in middle</a>
+                            </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#oll">Orientation of Last Layer (OLL)</a>
+                            <li class="nav flex-column">
+                                <a class="nav-link ml-3" href="#oll-1">OLL First Look (Yellow Cross)</a>
+                                <a class="nav-link ml-3" href="#oll-2">OLL Second Look (Yellow Corners)</a>
+                            </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#pll">Permutation of Last Layer (PLL)</a>
+                            <li class="nav flex-column">
+                                <a class="nav-link ml-3" href="#pll-1">PLL First Look (Permutate Yellow Corners)</a>
+                                <a class="nav-link ml-3" href="#pll-2">PLL Second Look (Permutate Yellow Edges)</a>
+                            </li>
                         </li>
                         <!-- Nav Conclusion -->
                         <p class="header">Conclusion</p>
@@ -163,7 +180,7 @@
                         <header id="f2l" class="lead font-weight-bold">
                             First Two Layers (F2L)
                         </header>
-                        <header class="lead font-weight-normal">1st Case: Easy cases</header>
+                        <header id="f2l-1" class="lead font-weight-normal">1st Case: Easy cases</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div>
                                 <img src="img/f2l-1.1.png" alt="" />
@@ -182,7 +199,7 @@
                                 <p>U R U' R'</p>
                             </div>
                         </div>
-                        <header class="lead font-weight-normal">2nd Case: Corner in bottom, edge in top layer</header>
+                        <header id="f2l-2" class="lead font-weight-normal">2nd Case: Corner in bottom, edge in top layer</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col-4">
                                 <img src="img/f2l-2.1.png" alt="" />
@@ -209,7 +226,7 @@
                                 <p>(F' U' F) (U F' U' F)</p>
                             </div>
                         </div>
-                        <header class="lead font-weight-normal">3rd Case: Corner in top, edge in middle</header>
+                        <header id="f2l-3" class="lead font-weight-normal">3rd Case: Corner in top, edge in middle</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col-4">
                                 <img src="img/f2l-3.1.png" alt="" />
@@ -236,7 +253,7 @@
                                 <p>(U' R U R') (d R' U' R)</p>
                             </div>
                         </div>
-                        <header class="lead font-weight-normal">4th Case: Corner pointing outwards, edge in top layer</header>
+                        <header id="f2l-4" class="lead font-weight-normal">4th Case: Corner pointing outwards, edge in top layer</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col-3">
                                 <img src="img/f2l-4.1.png" alt="" />
@@ -287,7 +304,7 @@
                                 <p>(U' R U2 R' U) (F' U' F)</p>
                             </div>
                         </div>
-                        <header class="lead font-weight-normal">5th Case: Corner pointing upwards, edge in top layer</header>
+                        <header id="f2l-5" class="lead font-weight-normal">5th Case: Corner pointing upwards, edge in top layer</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col-3">
                                 <img src="img/f2l-5.1.png" alt="" />
@@ -322,7 +339,7 @@
                                 <p>(F' U2 F) (U F' U' F)</p>
                             </div>
                         </div>
-                        <header class="lead font-weight-normal">6th Case: Corner in bottom, edge in middle</header>
+                        <header id="f2l-6" class="lead font-weight-normal">6th Case: Corner in bottom, edge in middle</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col">
                                 <img src="img/f2l-6.1.png" alt="" />
@@ -350,7 +367,7 @@
                         <header id="oll" class="lead font-weight-bold">
                             Orientation of Last Layer (OLL)
                         </header>
-                        <header class="lead font-weight-normal">OLL First Look (Yellow Cross)</header>
+                        <header id="oll-1" class="lead font-weight-normal">OLL First Look (Yellow Cross)</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col-4">
                                 <img src="img/oll-1.1.png" alt="" />
@@ -365,7 +382,7 @@
                                 <p>F (R U R' U') F'</p>
                             </div>
                         </div>
-                        <header class="lead font-weight-normal">OLL Second Look (Yellow Corners)</header>
+                        <header id="oll-2" class="lead font-weight-normal">OLL Second Look (Yellow Corners)</header>
                         <div class="row text-center align-items-center justify-content-around font-weight-bold">
                             <div class="col-3">
                                 <img src="img/oll-2.1.png" alt="" />
@@ -389,7 +406,46 @@
                             </div>
                             <div class="col-4">
                                 <img src="img/oll-2.6.png" alt="" />
-                                <p>F (R U R' U') F'</p>
+                                <p>x (L U R' U') (L' U R U')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/oll-2.7.png" alt="" />
+                                <p>R2 D (R' U2 R) D' (R' U2 R')</p>
+                            </div>
+                        </div>
+
+                        <!-- PLL -->
+                        <header id="pll" class="lead font-weight-bold">
+                            Permutation of Last Layer (PLL)
+                        </header>
+                        <header id="pll-1" class="lead font-weight-normal">PLL First Look (Permutate Yellow Corners)</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-6">
+                                <img src="img/pll-1.1.png" alt="" />
+                                <p>(R U R' U' R' F R2 U' R' U' R U R' F')</p>
+                            </div>
+                            <div class="col-6">
+                                <img src="img/pll-1.2.png" alt="" />
+                                <p>(F R U' R' U' R U R' F') (R U R' U' R' F R F')</p>
+                            </div>
+                        </div>
+                        <header id="pll-2" class="lead font-weight-normal">PLL Second Look (Permutate Yellow Edges)</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-3">
+                                <img src="img/pll-2.1.png" alt="" />
+                                <p>R U' R U R U R U' R' U' R2</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/pll-2.2.png" alt="" />
+                                <p>L' U L' U' L' U' L' U L U L2</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/pll-2.3.png" alt="" />
+                                <p>M2 U' M2 U2 M2 U' M2</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/pll-2.4.png" alt="" />
+                                <p>M ' U' M2 U' M2 U' M' U2 M2 U'</p>
                             </div>
                         </div>
                     </div>
@@ -401,9 +457,7 @@
                             Summary
                         </header>
                         <p>
-                            Congratulations! You now know how to speedsolve the Rubik's cube using the CFOP method. With enough practice, you can
-                            easily achieve sub 1 minute when solving the cube. Always remember that the key factors for speedcubing are looking ahead,
-                            good algorithms, efficient solving, and fast turning. I hope you something with this guide. Happy cubing!
+                            Congratulations! You now know how to speedsolve the Rubik's cube using the CFOP method. With enough practice, you can easily achieve sub 1 minute when solving the cube. Always remember that the key factors for speedcubing are looking ahead, good algorithms, efficient solving, and fast turning. I hope you something learned with this guide. Happy cubing!
                         </p>
                     </div>
                 </main>
