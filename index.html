@@ -88,7 +88,7 @@
                     <!-- Introduction -->
                     <h3 id="intro">Introduction</h3>
                     <div>
-                        <header id="why-cfop" class="lead font-weight-normal">
+                        <header id="why-cfop" class="lead font-weight-bold">
                             Why Do CFOP Method?
                         </header>
                         <p>
@@ -101,7 +101,7 @@
                         </p>
                     </div>
                     <div id="cfop-steps">
-                        <header class="lead font-weight-normal">
+                        <header class="lead font-weight-bold">
                             Steps of Advanced CFOP
                         </header>
                         <ol>
@@ -125,7 +125,8 @@
                     <!-- Solution -->
                     <h3 id="cross">Solution</h3>
                     <div>
-                        <header id="cross-content" class="lead font-weight-normal">
+                        <!-- Cross -->
+                        <header id="cross-content" class="lead font-weight-bold">
                             Cross
                         </header>
                         <p>
@@ -133,16 +134,264 @@
                             to the correct position. The second shows how to reorient a piece. The third example demonstrates how to place two pieces
                             in one step. The last step shows the steps to fix the Superflip (the "most scrambled Rubik's Cube") in only 6 moves.
                         </p>
-                        <img src="img/cross-1.png" alt="" />
-                        <img src="img/cross-2.png" alt="" />
-                        <img src="img/cross-3.png" alt="" />
-                        <img src="img/cross-4.png" alt="" />
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div>
+                                <img src="img/cross-1.png" alt="" />
+                                <p>F2</p>
+                            </div>
+                            <div>
+                                <img src="img/cross-2.png" alt="" />
+                                <p>U' R' F R</p>
+                            </div>
+                            <div>
+                                <img src="img/cross-3.png" alt="" />
+                                <p>F R2 D2</p>
+                            </div>
+                            <div>
+                                <img src="img/cross-4.png" alt="" />
+                                <p>R F L B R D</p>
+                            </div>
+                        </div>
                         <P>
                             This first step of solving the white cross is actually an intuitive stage of the solution process. We couldn't even cover
                             every possible situations because at this stage there are so many cases. Almost everyone could get this far without
                             learning algorithms. But you'll need to practice forming the white cross to make it efficient. Do it smoothly, without
                             stopping and with the cross facing downwards. If this works well, you can proceed in our tutorial to the second step: F2L
                         </P>
+
+                        <!-- F2l -->
+                        <header id="f2l" class="lead font-weight-bold">
+                            First Two Layers (F2L)
+                        </header>
+                        <header class="lead font-weight-normal">1st Case: Easy cases</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div>
+                                <img src="img/f2l-1.1.png" alt="" />
+                                <p>R U R'</p>
+                            </div>
+                            <div>
+                                <img src="img/f2l-1.2.png" alt="" />
+                                <p>F' U' F</p>
+                            </div>
+                            <div>
+                                <img src="img/f2l-1.3.png" alt="" />
+                                <p>U' F' U F</p>
+                            </div>
+                            <div>
+                                <img src="img/f2l-1.4.png" alt="" />
+                                <p>U R U' R'</p>
+                            </div>
+                        </div>
+                        <header class="lead font-weight-normal">2nd Case: Corner in bottom, edge in top layer</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-4">
+                                <img src="img/f2l-2.1.png" alt="" />
+                                <p>(U R U' R') (U' F' U F)</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-2.2.png" alt="" />
+                                <p>(U' F' U F) (U R U' R')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-2.3.png" alt="" />
+                                <p>(F' U F) (U' F' U F)</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-2.4.png" alt="" />
+                                <p>(R U R') (U' R U R')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-2.5.png" alt="" />
+                                <p>(R U' R') (U R U' R')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-2.5.png" alt="" />
+                                <p>(F' U' F) (U F' U' F)</p>
+                            </div>
+                        </div>
+                        <header class="lead font-weight-normal">3rd Case: Corner in top, edge in middle</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-4">
+                                <img src="img/f2l-3.1.png" alt="" />
+                                <p>(R U R' U') (R U R' U') (R U R')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-3.2.png" alt="" />
+                                <p>(R U' R') (d R' U R)</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-3.3.png" alt="" />
+                                <p>(U F' U F) (U F' U2 F)</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-3.4.png" alt="" />
+                                <p>(U F' U' F) (d' F U F')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-3.5.png" alt="" />
+                                <p>(U' R U' R') (U' R U2 R')</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/f2l-3.6.png" alt="" />
+                                <p>(U' R U R') (d R' U' R)</p>
+                            </div>
+                        </div>
+                        <header class="lead font-weight-normal">4th Case: Corner pointing outwards, edge in top layer</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-3">
+                                <img src="img/f2l-4.1.png" alt="" />
+                                <p>(R U' R' U) (d R' U' R)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.2.png" alt="" />
+                                <p>(F' U F U') (d' F U F')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.3.png" alt="" />
+                                <p>(U F' U2 F) (U F' U2 F)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.4.png" alt="" />
+                                <p>(U' R U2 R') (U' R U2 R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.5.png" alt="" />
+                                <p>(U F' U' F) (U F' U2 F)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.6.png" alt="" />
+                                <p>(U' R U R') (U' R U2 R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.7.png" alt="" />
+                                <p>(U' R U' R' U) (R U R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.8.png" alt="" />
+                                <p>(U F' U F U') (F' U' F)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.9.png" alt="" />
+                                <p>(U' R U R' U) (R U R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.10.png" alt="" />
+                                <p>(U F' U' F U') (F' U' F)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.11.png" alt="" />
+                                <p>(U F' U2 F U') (R U R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-4.12.png" alt="" />
+                                <p>(U' R U2 R' U) (F' U' F)</p>
+                            </div>
+                        </div>
+                        <header class="lead font-weight-normal">5th Case: Corner pointing upwards, edge in top layer</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-3">
+                                <img src="img/f2l-5.1.png" alt="" />
+                                <p>(R U R' U') U' (R U R' U') (R U R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.2.png" alt="" />
+                                <p>y' (R' U' R U) U (R' U' R U) (R' U' R)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.3.png" alt="" />
+                                <p>(U2 R U R') (U R U' R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.4.png" alt="" />
+                                <p>(U2 F' U' F) (U' F' U F)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.5.png" alt="" />
+                                <p>(U R U2 R') (U R U' R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.6.png" alt="" />
+                                <p>(U' F' U2 F) (U' F' U F)</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.7.png" alt="" />
+                                <p>(R U2 R') (U' R U R')</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/f2l-5.8.png" alt="" />
+                                <p>(F' U2 F) (U F' U' F)</p>
+                            </div>
+                        </div>
+                        <header class="lead font-weight-normal">6th Case: Corner in bottom, edge in middle</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col">
+                                <img src="img/f2l-6.1.png" alt="" />
+                                <p>(R U' R' d R' U2 R) (U R' U2 R)</p>
+                            </div>
+                            <div class="col">
+                                <img src="img/f2l-6.2.png" alt="" />
+                                <p>(R U' R' U R U2 R') (U R U' R')</p>
+                            </div>
+                            <div class="col">
+                                <img src="img/f2l-6.3.png" alt="" />
+                                <p>(R U' R' U' R U R') (U' R U2 R')</p>
+                            </div>
+                            <div class="col">
+                                <img src="img/f2l-6.4.png" alt="" />
+                                <p>(R U R' U' R U' R') (U d R' U' R)</p>
+                            </div>
+                            <div class="col">
+                                <img src="img/f2l-6.5.png" alt="" />
+                                <p>(R U' R' d R' U' R) (U' R' U' R)</p>
+                            </div>
+                        </div>
+
+                        <!-- OLL -->
+                        <header id="oll" class="lead font-weight-bold">
+                            Orientation of Last Layer (OLL)
+                        </header>
+                        <header class="lead font-weight-normal">OLL First Look (Yellow Cross)</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-4">
+                                <img src="img/oll-1.1.png" alt="" />
+                                <p>F (R U R' U') F' f (R U R' U') f'</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/oll-1.2.png" alt="" />
+                                <p>f (R U R' U') f'</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/oll-1.3.png" alt="" />
+                                <p>F (R U R' U') F'</p>
+                            </div>
+                        </div>
+                        <header class="lead font-weight-normal">OLL Second Look (Yellow Corners)</header>
+                        <div class="row text-center align-items-center justify-content-around font-weight-bold">
+                            <div class="col-3">
+                                <img src="img/oll-2.1.png" alt="" />
+                                <p>R U R' U R U2 R'</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/oll-2.2.png" alt="" />
+                                <p>L' U' L U' L' U2 L</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/oll-2.3.png" alt="" />
+                                <p>F (R U R' U')3 F'</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="img/oll-2.4.png" alt="" />
+                                <p>R U2 (R2 U' R2 U' R2) U2 R</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/oll-2.5.png" alt="" />
+                                <p>x (R' U R D') (R' U' R D)</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="img/oll-2.6.png" alt="" />
+                                <p>F (R U R' U') F'</p>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Conclusion -->

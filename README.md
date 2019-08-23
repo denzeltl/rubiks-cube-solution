@@ -12,17 +12,8 @@ TODO:
 
 ## Things Learned:
 
-TODO:
-
--   JavaScript string methods namely, `split()`, `replace()`, `charAt()`
--   JavaScript array methods namely, `join()`, `splice()`,`forEach()`,`map()`,`includes()`
--   Integrate JavaScript functions with HTML input forms (checkboxes & radios)
--   Popup module that opens and closes
-    ![Gif for Popup Module Example](gifs/popup-module.gif)
--   Simple _Todo List_ concept where you can add things to a list and remove them individually
-    ![Gif for Todo List Example](gifs/todo-list.gif)
--   Practice with arrow functions
--   Overall practice with HTML, CSS, and JavaScript
+-   Bootstrap navbar collapse on small screen
+-   Bootstrap sidebar navigation with scrollspy effect
 
 ## References:
 
