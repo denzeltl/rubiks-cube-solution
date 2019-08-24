@@ -10,7 +10,6 @@ View [here](https://denzeltl.github.io/rubiks-cube-solution/)
 
 ## Things Learned:
 
--   Bootstrap navbar collapse on small screen
 -   Bootstrap sidebar navigation with scrollspy effect
 
 ## References:
